@@ -1,26 +1,41 @@
-```css
 /* =====================================================
    TRANSFORMARTE
    STYLE.CSS
 ===================================================== */
-body {
-    background: red !important;
-    color: white !important;
-}
+
 :root {
     --green: #9ddb33;
     --green-dark: #7eae2f;
     --green-light: #dff1b8;
+
     --black: #0b0d0c;
     --dark: #121614;
     --dark-light: #1b201d;
+
     --white: #ffffff;
+
     --gray: #686f6b;
     --gray-light: #a7ada9;
     --light: #f4f6f3;
+
     --border: #d9ddd8;
+
     --max-width: 1200px;
     --transition: 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ffffff;
+    color: #0b0d0c;
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
 /* =====================================================
@@ -72,6 +87,7 @@ ul {
     list-style: none;
 }
 
+
 /* =====================================================
    GENERAL
 ===================================================== */
@@ -119,6 +135,7 @@ ul {
     line-height: 1.8;
 }
 
+
 /* =====================================================
    BUTTONS
 ===================================================== */
@@ -163,6 +180,7 @@ ul {
     background: var(--white);
     color: var(--black);
 }
+
 
 /* =====================================================
    NAVBAR
@@ -243,6 +261,7 @@ ul {
     line-height: 1;
 }
 
+
 /* =====================================================
    HERO
 ===================================================== */
@@ -316,6 +335,7 @@ ul {
     margin-top: 35px;
 }
 
+
 /* =====================================================
    IMAGE PLACEHOLDERS
 ===================================================== */
@@ -328,11 +348,12 @@ ul {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    background: linear-gradient(
-        135deg,
-        #e8ece7,
-        #dce1dc
-    );
+    background:
+        linear-gradient(
+            135deg,
+            #e8ece7,
+            #dce1dc
+        );
     border: 1px solid var(--border);
     color: var(--gray);
     text-align: center;
@@ -346,6 +367,7 @@ ul {
     font-size: 14px;
     font-weight: 600;
 }
+
 
 /* =====================================================
    SOBRE TRANSFORMARTE
@@ -411,31 +433,6 @@ ul {
     letter-spacing: 1px;
 }
 
-/* =====================================================
-   FOTO - SOBRE TRANSFORMARTE
-===================================================== */
-
-.content-image {
-    width: 100%;
-    min-height: 520px;
-    overflow: hidden;
-    border-radius: 22px;
-}
-
-.content-image img {
-    display: block;
-    width: 100%;
-    height: 520px;
-    object-fit: cover;
-    object-position: center top;
-    border-radius: 22px;
-    box-shadow: 0 20px 45px rgba(11, 13, 12, 0.18);
-    transition: transform 0.6s ease;
-}
-
-.content-image:hover img {
-    transform: scale(1.03);
-}
 
 /* =====================================================
    FUNDADOR
@@ -490,11 +487,12 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 30px;
-    background: linear-gradient(
-        145deg,
-        var(--dark),
-        #242b27
-    );
+    background:
+        linear-gradient(
+            145deg,
+            var(--dark),
+            #242b27
+        );
     color: var(--white);
     text-align: center;
 }
@@ -537,6 +535,7 @@ ul {
     font-weight: 700;
     line-height: 1.7;
 }
+
 
 /* =====================================================
    PILARES
@@ -587,9 +586,6 @@ ul {
     line-height: 1.7;
 }
 
-.pillar-card:hover p {
-    color: var(--gray-light);
-}
 
 /* =====================================================
    PROGRAMAS
@@ -671,6 +667,7 @@ ul {
 .text-link:hover {
     color: var(--green-dark);
 }
+
 
 /* =====================================================
    TRANSFORMACIÓN
@@ -758,6 +755,7 @@ ul {
     text-align: center;
 }
 
+
 /* =====================================================
    DESPERTARTE
 ===================================================== */
@@ -771,7 +769,8 @@ ul {
 }
 
 .teen-content {
-    padding: 100px max(30px, calc((100vw - 1200px) / 2));
+    padding:
+        100px max(30px, calc((100vw - 1200px) / 2));
     padding-right: 60px;
 }
 
@@ -841,6 +840,7 @@ ul {
     object-fit: cover;
 }
 
+
 /* =====================================================
    BENEFICIOS
 ===================================================== */
@@ -878,6 +878,7 @@ ul {
     font-size: 14px;
     line-height: 1.75;
 }
+
 
 /* =====================================================
    OFERTA
@@ -922,6 +923,7 @@ ul {
     line-height: 1.75;
 }
 
+
 /* =====================================================
    CTA DESPERTARTE
 ===================================================== */
@@ -954,6 +956,7 @@ ul {
     margin: 0 auto 35px;
     color: var(--gray-light);
 }
+
 
 /* =====================================================
    EVENTOS
@@ -1017,6 +1020,7 @@ ul {
     letter-spacing: 1px;
 }
 
+
 /* =====================================================
    GALERÍA
 ===================================================== */
@@ -1051,6 +1055,7 @@ ul {
     transform: scale(1.06);
 }
 
+
 /* =====================================================
    TESTIMONIOS
 ===================================================== */
@@ -1080,6 +1085,7 @@ ul {
 .testimonial-placeholder p {
     color: var(--gray);
 }
+
 
 /* =====================================================
    INSTAGRAM
@@ -1123,6 +1129,7 @@ ul {
     max-width: 300px;
     color: var(--gray-light);
 }
+
 
 /* =====================================================
    CONTACTO
@@ -1220,6 +1227,7 @@ ul {
     min-height: 600px;
 }
 
+
 /* =====================================================
    FOOTER
 ===================================================== */
@@ -1297,6 +1305,7 @@ ul {
     font-size: 12px;
 }
 
+
 /* =====================================================
    ANIMACIONES
 ===================================================== */
@@ -1316,6 +1325,7 @@ ul {
 .hero-content {
     animation: fadeUp 0.8s ease both;
 }
+
 
 /* =====================================================
    ANIMACIONES DE SCROLL
@@ -1340,13 +1350,16 @@ ul {
     transform: none;
 }
 
+
 /* =====================================================
    NAVBAR SCROLLED
 ===================================================== */
 
 .navbar-scrolled {
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+    box-shadow:
+        0 10px 30px rgba(0, 0, 0, 0.18);
 }
+
 
 /* =====================================================
    ERROR DE IMAGEN
@@ -1357,6 +1370,7 @@ ul {
     object-fit: contain;
     background: var(--light);
 }
+
 
 /* =====================================================
    RESPONSIVE — TABLET
@@ -1371,14 +1385,6 @@ ul {
     .about-content {
         grid-template-columns: 1fr;
         gap: 50px;
-    }
-
-    .content-image {
-        min-height: 500px;
-    }
-
-    .content-image img {
-        height: 500px;
     }
 
     .founder-layout {
@@ -1431,6 +1437,7 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
 
 /* =====================================================
    RESPONSIVE — MÓVIL
@@ -1507,23 +1514,9 @@ ul {
         width: 100%;
     }
 
-    /* SOBRE TRANSFORMARTE */
-
     .about-values {
         grid-template-columns: 1fr;
     }
-
-    .content-image {
-        min-height: 420px;
-        border-radius: 18px;
-    }
-
-    .content-image img {
-        height: 420px;
-        border-radius: 18px;
-    }
-
-    /* FUNDADOR */
 
     .founder-profile {
         margin-top: 75px;
@@ -1548,8 +1541,6 @@ ul {
         min-height: 380px;
     }
 
-    /* PILARES */
-
     .pillar-grid {
         grid-template-columns: 1fr;
     }
@@ -1557,8 +1548,6 @@ ul {
     .pillar-card {
         min-height: auto;
     }
-
-    /* PROGRAMAS */
 
     .program-image {
         height: 250px;
@@ -1568,8 +1557,6 @@ ul {
         padding: 28px;
     }
 
-    /* DESPERTARTE */
-
     .teen-program {
         grid-template-columns: 1fr;
     }
@@ -1578,33 +1565,29 @@ ul {
         padding: 75px 20px;
     }
 
-    .teen-content h2 {
-        font-size: clamp(60px, 20vw, 90px);
-    }
+   .teen-content h2 {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(44px, 14vw, 64px);
+    line-height: 0.95;
+    letter-spacing: -3px;
+}
 
     .teen-image {
         min-height: 400px;
     }
 
-    /* BENEFICIOS */
-
     .teen-benefits-grid {
         grid-template-columns: 1fr;
     }
-
-    /* OFERTA */
 
     .offer-grid {
         grid-template-columns: 1fr;
     }
 
-    /* EVENTOS */
-
     .event-content {
         padding: 35px 25px;
     }
-
-    /* GALERÍA */
 
     .gallery-grid {
         grid-template-columns: 1fr 1fr;
@@ -1615,13 +1598,9 @@ ul {
         grid-row: span 2;
     }
 
-    /* CONTACTO */
-
     .contact-image .image-placeholder {
         min-height: 400px;
     }
-
-    /* FOOTER */
 
     .footer-container {
         grid-template-columns: 1fr;
@@ -1629,6 +1608,7 @@ ul {
         padding: 55px 20px;
     }
 }
+
 
 /* =====================================================
    RESPONSIVE — MÓVIL PEQUEÑO
@@ -1658,15 +1638,8 @@ ul {
         flex-direction: column;
         gap: 20px;
     }
-
-    .content-image {
-        min-height: 360px;
-    }
-
-    .content-image img {
-        height: 360px;
-    }
 }
+
 
 /* =====================================================
    ACCESIBILIDAD
@@ -1676,6 +1649,7 @@ ul {
     outline: 3px solid var(--green);
     outline-offset: 4px;
 }
+
 
 /* =====================================================
    REDUCIR ANIMACIONES
@@ -1701,3 +1675,224 @@ ul {
     }
 }
 ```
+/* =====================================================
+   FOTO DEL FUNDADOR - JUAN CARLOS INOA
+===================================================== */
+
+.founder-photo {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto 35px;
+    position: relative;
+}
+
+.founder-photo img {
+    display: block;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 20px;
+    box-shadow: 0 20px 45px rgba(11, 13, 12, 0.18);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.founder-photo img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 55px rgba(11, 13, 12, 0.24);
+}@media (max-width: 700px) {
+
+    .founder-photo {
+        max-width: 320px;
+        margin-bottom: 30px;
+    }
+
+    .founder-photo img {
+        height: 400px;
+    }
+
+}
+/* =====================================================
+   FUNDADOR - DISEÑO DE DOS COLUMNAS
+===================================================== */
+
+.founder-profile {
+    display: grid;
+    grid-template-columns: minmax(280px, 420px) 1fr;
+    gap: 70px;
+    align-items: center;
+    max-width: 1100px;
+    margin: 70px auto 0;
+}
+
+.founder-photo {
+    width: 100%;
+    position: relative;
+}
+
+.founder-photo img {
+    display: block;
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 22px;
+    box-shadow: 0 20px 45px rgba(11, 13, 12, 0.18);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.founder-photo img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 25px 55px rgba(11, 13, 12, 0.24);
+}
+
+.founder-info {
+    min-width: 0;
+}
+
+.founder-heading {
+    margin-bottom: 28px;
+}
+
+.founder-heading h3 {
+    margin: 8px 0 8px;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.1;
+}
+
+.founder-heading h3 span {
+    color: var(--green);
+}
+
+.founder-title {
+    color: var(--gray);
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.founder-story {
+    color: var(--gray);
+    line-height: 1.8;
+}
+
+.founder-story p {
+    margin-bottom: 18px;
+}
+
+
+/* =====================================================
+   RESPONSIVE - TABLET
+===================================================== */
+
+@media (max-width: 900px) {
+
+    .founder-profile {
+        grid-template-columns: 300px 1fr;
+        gap: 40px;
+    }
+
+    .founder-photo img {
+        height: 430px;
+    }
+
+}
+
+
+/* =====================================================
+   RESPONSIVE - CELULAR
+===================================================== */
+
+@media (max-width: 700px) {
+
+    .founder-profile {
+        grid-template-columns: 1fr;
+        gap: 35px;
+        margin-top: 50px;
+    }
+
+    .founder-photo {
+        max-width: 340px;
+        margin: 0 auto;
+    }
+
+    .founder-photo img {
+        height: 420px;
+    }
+
+    .founder-info {
+        text-align: center;
+    }
+
+    .founder-heading {
+        margin-bottom: 24px;
+    }
+
+    .founder-story {
+        text-align: left;
+    }
+
+}
+/* =====================================================
+   JUAN CARLOS INOA - DOS COLUMNAS
+===================================================== */
+
+.about .founder-profile {
+    display: grid !important;
+    grid-template-columns: 420px minmax(0, 1fr) !important;
+    gap: 70px !important;
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 1100px !important;
+    margin: 70px auto 0 !important;
+}
+
+.about .founder-photo {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.about .founder-photo img {
+    display: block !important;
+    width: 100% !important;
+    height: 520px !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+    border-radius: 22px !important;
+}
+
+.about .founder-info {
+    width: 100% !important;
+    min-width: 0 !important;
+}
+
+@media (max-width: 900px) {
+
+    .about .founder-profile {
+        grid-template-columns: 300px minmax(0, 1fr) !important;
+        gap: 40px !important;
+    }
+
+    .about .founder-photo img {
+        height: 430px !important;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .about .founder-profile {
+        grid-template-columns: 1fr !important;
+        gap: 35px !important;
+    }
+
+    .about .founder-photo {
+        max-width: 340px !important;
+        margin: 0 auto !important;
+    }
+
+    .about .founder-photo img {
+        height: 420px !important;
+    }
+
+}
