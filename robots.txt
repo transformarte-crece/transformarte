@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://transformarte-crece.github.io/transformarte/sitemap.xml
