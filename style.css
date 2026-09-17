@@ -1176,7 +1176,26 @@ ul {
 .contact-detail > span {
     font-size: 22px;
 }
+.contact-detail span svg {
+    width: 28px;
+    height: 28px;
+    display: block;
+}
 
+.contact-detail .gmail-icon {
+    color: #EA4335;
+}
+
+.contact-detail .instagram-icon {
+    color: #DD2A7B;
+}
+
+.contact-detail .gmail-icon,
+.contact-detail .instagram-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .contact-detail strong {
     display: block;
     margin-bottom: 3px;
@@ -2024,4 +2043,36 @@ ul {
     border-radius: 20px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.10);
     transition: transform 0.3s ease;
+}/* =====================================================
+   ICONO DE CORREO
+===================================================== */
+
+.contact-detail .mail-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    color: #333;
+    flex-shrink: 0;
+}
+
+.contact-detail .mail-icon svg {
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.contact-detail .instagram-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    flex-shrink: 0;
+}
+
+.contact-detail .instagram-icon svg {
+    width: 30px;
+    height: 30px;
+    display: block;
 }
